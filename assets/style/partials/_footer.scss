@@ -1,0 +1,125 @@
+footer.main-footer {
+  background-color: $color-brown;
+  color: #fff;
+
+  .zakher-logo {
+    max-width: 160px;
+  }
+  .contact-info {
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+
+    img {
+      max-width: 200px;
+    }
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li {
+      font-size: 14px;
+      margin-bottom: 10px;
+
+      @media #{$media-tablet} {
+        text-align: center;
+      }
+      a {
+        color: #fff;
+        font-weight: bold;
+      }
+      a {
+        &:hover {
+          color: $color-dark-green-2;
+        }
+      }
+    }
+  }
+}
+
+.social-links {
+  @media #{$media-tablet} {
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+  }
+  @media #{$media-MobileXLarge} {
+    margin: 10px 0;
+  }
+
+  ul {
+    list-style: none;
+    // display: flex;
+    padding: 0 18px 0 0 !important;
+    margin: 10px 0 0 0 !important;
+
+    li {
+      a {
+        font-size: 17px;
+        i {
+          color: #fff;
+        }
+        &.facebook:hover {
+          color: #4267b2;
+        }
+        &.twitter:hover {
+          color: #1da1f2;
+        }
+        &.linkedin:hover {
+          color: #95b9fc;
+        }
+        &.instgram:hover {
+          color: #f16fb9;
+        }
+      }
+    }
+  }
+}
+
+// footer.bar {
+//   background-color: $color-dark-grey-2;
+//   color: #fff;
+//   border-top: 1px solid $color-grey;
+
+//   p {
+//     color: #fff;
+//     font-weight: 300;
+//     letter-spacing: 1px;
+//   }
+
+//   .united-diamonds {
+//     width: 60px;
+//     height: 25px;
+//   }
+
+//   .social-links {
+//     ul {
+//       list-style: none;
+//       display: flex;
+//       padding: 0;
+//       margin: 0;
+
+//       li {
+//         padding-right: 15px;
+//         a {
+//           color: #fff;
+//           &.facebook:hover {
+//             color: #4267b2;
+//           }
+//           &.twitter:hover {
+//             color: #1da1f2;
+//           }
+//           &.linkedin:hover {
+//             color: #95b9fc;
+//           }
+//           &.instgram:hover {
+//             color: #f16fb9;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }

@@ -1,0 +1,601 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/favicon/site.webmanifest" />
+
+    <title>ذاخر - نوفيل ريزيدنسز مكة</title>
+
+    <!-- CSS  -->
+    <link rel="stylesheet" type="text/css" href="assets/style/theme.css" />
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = "2.0";
+
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+
+        s.parentNode.insertBefore(t, s);
+      })(
+        window,
+        document,
+        "script",
+
+        "https://connect.facebook.net/en_US/fbevents.js"
+      );
+
+      fbq("init", "3154848708115207");
+
+      fbq("track", "PageView");
+    </script>
+
+    <noscript
+      ><img
+        height="1"
+        width="1"
+        style="display: none"
+        src="https://www.facebook.com/tr?id=3154848708115207&ev=PageView&noscript=1"
+    /></noscript>
+    <script type="text/javascript">
+      (function (e, t, n) {
+        if (e.snaptr) return;
+        var a = (e.snaptr = function () {
+          a.handleRequest
+            ? a.handleRequest.apply(a, arguments)
+            : a.queue.push(arguments);
+        });
+
+        a.queue = [];
+        var s = "script";
+        r = t.createElement(s);
+        r.async = !0;
+
+        r.src = n;
+        var u = t.getElementsByTagName(s)[0];
+
+        u.parentNode.insertBefore(r, u);
+      })(
+        window,
+        document,
+
+        "https://sc-static.net/scevent.min.js"
+      );
+
+      snaptr("init", "3341e818-f796-4378-b182-90f9c128e40e", {
+        user_email: "__INSERT_USER_EMAIL__",
+      });
+
+      snaptr("track", "PAGE_VIEW");
+    </script>
+  </head>
+
+  <body>
+    <header>
+      <a href="index.html" class="site-brand main-brand">
+        <img
+          class="img-fluid"
+          src="assets/images/home/thakher-logo-white.svg"
+          alt=""
+        />
+      </a>
+
+      <button id="toggle-menu" class="menu-btn">
+        <i class="fas fa-bars"></i>
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <form action="" id="seach-form" onsubmit="event.preventDefault()">
+        <div class="input-group">
+          <button id="toggle-search" class="menu-btn me-3">
+            <i class="fas fa-search"></i>
+          </button>
+          <input
+            type="text"
+            name=""
+            id=""
+            class="form-control"
+            placeholder="بحث"
+          />
+        </div>
+      </form>
+
+      <main
+        id="header-wrapper"
+        class="container-fluid p-0 d-flex pt-md-0 pt-3 flex-column"
+      >
+        <div
+          class="row flex-grow-1 flex-md-row justify-content-between flex-column mx-5 my-4"
+        >
+          <!-- <div class="col-auto p-0 mb-md-3 mt-md-0 mt-5">
+          <a href="index.html" class="site-brand">
+            <img class="img-fluid" src="assets/images/home/thakher-logo-white.svg" alt="" />
+          </a>
+        </div> -->
+          <div
+            class="col-auto flex-grow-1 p-0 flex-grow-1 justify-content-end align-items-end d-flex flex-column"
+          >
+            <div
+              class="menu-container flex-md-grow-0 flex-grow-1 d-flex w-100 justify-content-md-end justify-content-between align-items-center flex-column flex-md-row"
+            >
+              <nav
+                class="d-flex align-items-center flex-grow-1 justify-content-center"
+              >
+                <ul class="mb-md-4 mb-0">
+                  <li><a href="index.html">الرئيسية</a></li>
+                  <li><a href="about-us.html">من نحن</a></li>
+                  <li>
+                    <a href="brief-about-project.html">نظرة على المشروع</a>
+                  </li>
+                  <li><a href="hotels.html">الضيافة</a></li>
+
+                  <li><a href="partners.html">الشركاء</a></li>
+                  <!-- <li><a href="news.html">الاخبار</a></li> -->
+                  <!-- <li>
+                    <a href="join-us.html"> انضم الينا</a>
+                  </li> -->
+                  <li><a href="contact-us.html">تواصل معنا</a></li>
+                </ul>
+              </nav>
+              <!-- <a href="#" class="switch-language-button">Eng</a> -->
+            </div>
+          </div>
+        </div>
+      </main>
+    </header>
+
+    <main id="single-product-page">
+      <div class="hero min-vh-100">
+        <div class="hero-content pe-5 pe-lg-0 my-5">
+          <div class="d-flex p-lg-5 p-3 flex-column">
+            <div class="row justify-content-between">
+              <div class="col-lg-8">
+                <h2 class="text-offwhite text-uppercase w-bold">
+                  نوفوتيل ريزيدنسز مكة
+                </h2>
+                <!-- <p class="text-white f">
+                في نوڤوتيل ريزدنسز نوفر العـديد من الخـيارات الفندقـية بمسـاحات وغـرف متنوعة تلبي احتياجاتكم. ومن أهم
+                الخيارات السكنية التي نفخر بتقديمها لفئة غالية على قلوبنا فئة الأشخاص ذوي الهمم حيث تم تهيئة الفندق
+                بأدوار مخصصة لهم صممت لتخدم جميع احتياجاتهم.
+
+              </p> -->
+              </div>
+              <!-- <div class="col-lg col-12 justify-content-evenly features-icons">
+                <div class="px-1">
+                  <i class="fa-solid fa-wind"></i>
+                  <span>مكيف هواء</span>
+                </div>
+                <div class="px-1">
+                  <i class="fas fa-wifi"></i>
+                  <span>Wi-Fi</span>
+                </div>
+                <div class="px-1">
+                  <i class="fas fa-couch"></i>
+                  <span>٣ غرف</span>
+                </div>
+                <div class="px-1">
+                  <i class="fas fa-shower"></i>
+                  <span>٢ حمام</span>
+                </div>
+              </div> -->
+
+              <!-- <div class="col-lg-auto col-12 social-icons">
+              <ul class="d-flex flex-lg-column flex-row mt-4 mt-lg-0">
+                <li>
+                  <a href="https://www.instagram.com/thakherdevelopment/">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/company/thakherdevelopment/">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.facebook.com/Thakher-Development-104244868397591">
+                    <i class="fa-brands fa-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/ThakherD">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </a>
+                </li>
+              </ul>
+            </div> -->
+            </div>
+          </div>
+        </div>
+
+        <div class="product-images-slider slick-slider">
+          <div>
+            <img src="assets/images/single-product.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <section
+        class="container position-relative pt-5 justify-content-center d-flex"
+      >
+        <a href="#section" class="arrow-top">
+          <!-- <img src="assets/images/icons/arrow-down.svg" alt=""> -->
+          <!-- <i class="fa-solid fa-circle-chevron-down"></i> -->
+          <i class="fa-solid fa-angle-down"></i>
+        </a>
+
+        <div class="row" id="section">
+          <div class="col-12">
+            <h2 class="text-center mb-4 fw-bold">نوفوتيل ريزيدنسز مكة</h2>
+
+            <h6 class="title text-justify">
+              في نوڤوتيل ريزدنسز نوفر العـديد من الخـيارات بمسـاحات وغـرف متنوعة
+              تلبي احتياجاتكم. ومن أهم الخيارات السكنية التي نفخر بتقديمها لفئة
+              غالية على قلوبنا فئة الأشخاص ذوي الاحتياجات الخاصة حيث تم تهيئة
+              الفندق بأدوار مخصصة لهم صممت لتخدم جميع احتياجاتهم.
+            </h6>
+
+            <ul>
+              <li>أندية صحية للنساء والرجال</li>
+              <li>حمامات سباحة</li>
+              <li>متاجر متنوعة</li>
+              <li>مواقف سيارات</li>
+            </ul>
+
+            <!-- 
+          <div class="row my-5 justify-content-center">
+            <div class="col-auto">
+              <a href="contact-us.html" class="btn px-5 btn-outline-warning w-auto m-auto text-uppercase"> سجل اهتمامك<i
+                  class="fas fa-chevron-left me-4"></i> </a>
+            </div>
+          </div> -->
+          </div>
+        </div>
+      </section>
+
+      <section id="units-design-samples" class="container-fluid pb-5 px-5">
+        <div class="row">
+          <a
+            href="studio-unit.html"
+            class="col-sm-4 d-flex flex-column justify-content-end p-2"
+          >
+            <img
+              src="assets/images/Studio-Unit--001.png"
+              alt=""
+              class="img-fluid"
+            />
+
+            <h4 class="text-center fw-bold">استوديو</h4>
+          </a>
+          <a
+            href="one-room-unit.html"
+            class="col-sm-4 d-flex flex-column justify-content-end p-2"
+          >
+            <img
+              src="assets/images/one-bedroom-unit--001.png"
+              alt=""
+              class="img-fluid"
+            />
+
+            <h4 class="text-center fw-bold">غرفة نوم واحدة</h4>
+          </a>
+          <a
+            href="two-rooms-unit.html"
+            class="col-sm-4 d-flex flex-column justify-content-end p-2"
+          >
+            <img
+              src="assets/images/Two-Bedroom-Unit-004.png"
+              alt=""
+              class="img-fluid"
+            />
+
+            <h4 class="text-center fw-bold">غرفتين نوم</h4>
+          </a>
+        </div>
+      </section>
+
+      <!-- <section class="blurred-bg container-fluid my-5 d-flex justify-content-center align-items-center">
+      <a href="#">
+        <h4 class="text-center text-uppercase text-decoration-underline fw-light">اضغط هنا للاستمتاع بتجربه الفي آر</h4>
+      </a>
+      <img src="assets/images/saudi-man.jpg" alt="" />
+    </section> -->
+
+      <section class="container py-3 mb-5">
+        <div class="row col-12">
+          <h3 class="text-center my-5 fw-bold">صور و فيديو</h3>
+        </div>
+        <div class="row galley-slider slick-slider mb-3">
+          <div>
+            <img
+              src="assets/images/single-product/1.jpg"
+              alt=""
+              class="cover"
+            />
+          </div>
+          <div>
+            <img
+              src="assets/images/single-product/2.jpg"
+              alt=""
+              class="cover"
+            />
+          </div>
+          <div>
+            <img
+              src="assets/images/single-product/3.jpg"
+              alt=""
+              class="cover"
+            />
+          </div>
+          <div>
+            <img
+              src="assets/images/single-product/4.jpg"
+              alt=""
+              class="cover"
+            />
+          </div>
+          <div>
+            <img
+              src="assets/images/single-product/5.jpg"
+              alt=""
+              class="cover"
+            />
+          </div>
+          <div>
+            <img
+              src="assets/images/single-product/6.jpg"
+              alt=""
+              class="cover"
+            />
+          </div>
+          <div>
+            <img
+              src="assets/images/single-product/7.jpg"
+              alt=""
+              class="cover"
+            />
+          </div>
+          <div>
+            <img
+              src="assets/images/single-product/8.jpg"
+              alt=""
+              class="cover"
+            />
+          </div>
+          <div>
+            <img
+              src="assets/images/single-product/9.jpg"
+              alt=""
+              class="cover"
+            />
+          </div>
+          <div>
+            <img
+              src="assets/images/single-product/10.jpg"
+              alt=""
+              class="cover"
+            />
+          </div>
+          <div>
+            <img
+              src="assets/images/single-product/11.jpg"
+              alt=""
+              class="cover"
+            />
+          </div>
+          <div>
+            <img
+              src="assets/images/single-product/12.jpg"
+              alt=""
+              class="cover"
+            />
+          </div>
+          <div>
+            <img
+              src="assets/images/single-product/13.jpg"
+              alt=""
+              class="cover"
+            />
+          </div>
+        </div>
+        <div class="row gallery-slider-nav slick-slider">
+          <div class="px-2">
+            <img src="assets/images/single-product/1.jpg" alt="" class="" />
+          </div>
+          <div class="px-2">
+            <img src="assets/images/single-product/2.jpg" alt="" class="" />
+          </div>
+          <div class="px-2">
+            <img src="assets/images/single-product/3.jpg" alt="" class="" />
+          </div>
+          <div class="px-2">
+            <img src="assets/images/single-product/4.jpg" alt="" class="" />
+          </div>
+          <div class="px-2">
+            <img src="assets/images/single-product/5.jpg" alt="" class="" />
+          </div>
+          <div class="px-2">
+            <img src="assets/images/single-product/6.jpg" alt="" class="" />
+          </div>
+          <div class="px-2">
+            <img src="assets/images/single-product/7.jpg" alt="" class="" />
+          </div>
+          <div class="px-2">
+            <img src="assets/images/single-product/8.jpg" alt="" class="" />
+          </div>
+          <div class="px-2">
+            <img src="assets/images/single-product/9.jpg" alt="" class="" />
+          </div>
+          <div class="px-2">
+            <img src="assets/images/single-product/10.jpg" alt="" class="" />
+          </div>
+          <div class="px-2">
+            <img src="assets/images/single-product/11.jpg" alt="" class="" />
+          </div>
+          <div class="px-2">
+            <img src="assets/images/single-product/12.jpg" alt="" class="" />
+          </div>
+          <div class="px-2">
+            <img src="assets/images/single-product/13.jpg" alt="" class="" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="conatiner-fluid p-5 main-footer">
+      <div class="row justify-content-evenly">
+        <div class="col-auto d-flex justify-content-center">
+          <a href="index.html" class="d-flex justify-content-center">
+            <img
+              src="assets/images/home/thakher-logo-white.svg"
+              alt=""
+              class="img-fluid w-50 zakher-logo align-self-start mb-5 mb-lg-0"
+            />
+          </a>
+        </div>
+
+        <div class="col-lg-10 row justify-content-between">
+          <div class="col-md-2 col-12">
+            <ul>
+              <li><a href="index.html">الرئيسية</a></li>
+              <li><a href="about-us.html">من نحن</a></li>
+              <li><a href="brief-about-project.html">نظرة على المشروع</a></li>
+              <li><a href="hotels.html">الضيافة</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2 col-12">
+            <ul>
+              <li><a href="partners.html">شركائنا</a></li>
+              <!-- <li><a href="news.html">اخبارنا</a></li> -->
+              <!-- <li><a href="join-us.html">انضم الينا</a></li> -->
+              <li><a href="contact-us.html">تواصل معنا</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2 col-12">
+            <ul>
+              <li class="mt-md-0 mt-5 mb-0"><b>تابعنا على</b></li>
+            </ul>
+
+            <div class="col-auto social-links">
+              <ul>
+                <li class="ps-3">
+                  <a
+                    href="https://www.facebook.com/Thakher-Development-104244868397591"
+                    class="facebook"
+                    ><i class="fa-brands fa-facebook-f"></i
+                  ></a>
+                </li>
+                <li class="ps-3">
+                  <a href="https://twitter.com/ThakherD" class="twitter"
+                    ><i class="fa-brands fa-twitter"></i
+                  ></a>
+                </li>
+                <li class="ps-3">
+                  <a
+                    href="https://www.linkedin.com/company/thakherdevelopment/"
+                    class="linkedin"
+                    ><i class="fa-brands fa-linkedin-in"></i
+                  ></a>
+                </li>
+                <li class="ps-3">
+                  <a
+                    href="https://www.instagram.com/thakherdevelopment/"
+                    class="instgram"
+                    ><i class="fa-brands fa-instagram"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div
+            class="contact-info col-md-4 col-12 d-flex flex-column align-items-center"
+          >
+            <div class="align-self-md-start mb-lg-0 mb-4">
+              <div
+                class="d-flex mb-2 justify-content-center justify-content-md-start"
+              >
+                <i class="fas fa-phone ps-2 pt-1"></i>
+                <span>920010088</span>
+              </div>
+              <div
+                class="d-flex mb-2 justify-content-center justify-content-md-start"
+              >
+                <i class="fas fa-envelope ps-2 pt-1"></i>
+                <span>customer@thakher.com.sa</span>
+              </div>
+              <div
+                class="d-flex mb-2 justify-content-center justify-content-md-start"
+              >
+                <i class="fas fa-location-dot ps-2 pt-1"></i>
+                <span> شارع التحلية حي الروضة مبنى ذاخر </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="floating-subscribe">
+      <a
+        href="contact-us.html"
+        id="toggle-subscribe-button"
+        class="btn btn-primary"
+        type="button"
+        >سجل اهتمامك</a
+      >
+      <!-- <form action="">
+      <div class="input-group subscribe justify-content-end">
+        <input id="subscribe-email-input" type="email" class="form-control" placeholder="اكتب ايميلك الشخصي" />
+        <div class="input-group-append">
+          <button id="toggle-subscribe-button" class="btn btn-primary" type="button">سجل اهتمامك</button>
+        </div>
+      </div>
+    </form> -->
+    </div>
+
+    <div id="arrowTop" class="arrow-to-top">
+      <i class="fa-solid fa-square-caret-up"></i>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

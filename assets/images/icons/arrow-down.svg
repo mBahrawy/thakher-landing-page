@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24.737" height="24.737" viewBox="0 0 24.737 24.737">
+  <g id="arrow-down" transform="translate(542.369 1922.369)">
+    <path id="circle-chevron-down-solid" d="M10.635,0A10.635,10.635,0,1,0,21.27,10.635,10.634,10.634,0,0,0,10.635,0Z" transform="translate(-540.635 -1920.635)" fill="#fff"/>
+    <path id="circle-chevron-down-solid-2" data-name="circle-chevron-down-solid" d="M12.369,0A12.369,12.369,0,1,0,24.737,12.369,12.368,12.368,0,0,0,12.369,0Zm6.5,11.914-5.411,5.411a1.542,1.542,0,0,1-2.185,0L5.864,11.916A1.546,1.546,0,0,1,8.051,9.729l4.318,4.321,4.318-4.318a1.544,1.544,0,1,1,2.185,2.183Z" transform="translate(-542.369 -1922.369)" fill="#2a4c25"/>
+  </g>
+</svg>

@@ -1,0 +1,565 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#385f54" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/favicon/site.webmanifest" />
+
+    <title>ذاخر - الضيافة</title>
+
+    <!-- CSS  -->
+    <link rel="stylesheet" href="assets/style/theme.css" />
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = "2.0";
+
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+
+        s.parentNode.insertBefore(t, s);
+      })(
+        window,
+        document,
+        "script",
+
+        "https://connect.facebook.net/en_US/fbevents.js"
+      );
+
+      fbq("init", "3154848708115207");
+
+      fbq("track", "PageView");
+    </script>
+
+    <noscript
+      ><img
+        height="1"
+        width="1"
+        style="display: none"
+        src="https://www.facebook.com/tr?id=3154848708115207&ev=PageView&noscript=1"
+    /></noscript>
+    <script type="text/javascript">
+      (function (e, t, n) {
+        if (e.snaptr) return;
+        var a = (e.snaptr = function () {
+          a.handleRequest
+            ? a.handleRequest.apply(a, arguments)
+            : a.queue.push(arguments);
+        });
+
+        a.queue = [];
+        var s = "script";
+        r = t.createElement(s);
+        r.async = !0;
+
+        r.src = n;
+        var u = t.getElementsByTagName(s)[0];
+
+        u.parentNode.insertBefore(r, u);
+      })(
+        window,
+        document,
+
+        "https://sc-static.net/scevent.min.js"
+      );
+
+      snaptr("init", "3341e818-f796-4378-b182-90f9c128e40e", {
+        user_email: "__INSERT_USER_EMAIL__",
+      });
+
+      snaptr("track", "PAGE_VIEW");
+    </script>
+  </head>
+
+  <body>
+    <header>
+      <a href="index.html" class="site-brand main-brand">
+        <img
+          class="img-fluid"
+          src="assets/images/home/thakher-logo-white.svg"
+          alt=""
+        />
+      </a>
+
+      <button id="toggle-menu" class="menu-btn">
+        <i class="fas fa-bars"></i>
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <form action="" id="seach-form" onsubmit="event.preventDefault()">
+        <div class="input-group">
+          <button id="toggle-search" class="menu-btn me-3">
+            <i class="fas fa-search"></i>
+          </button>
+          <input
+            type="text"
+            name=""
+            id=""
+            class="form-control"
+            placeholder="بحث"
+          />
+        </div>
+      </form>
+
+      <main
+        id="header-wrapper"
+        class="container-fluid p-0 d-flex pt-md-0 pt-3 flex-column"
+      >
+        <div
+          class="row flex-grow-1 flex-md-row justify-content-between flex-column mx-5 my-4"
+        >
+          <!-- <div class="col-auto p-0 mb-md-3 mt-md-0 mt-5">
+          <a href="index.html" class="site-brand">
+            <img class="img-fluid" src="assets/images/home/thakher-logo-white.svg" alt="" />
+          </a>
+        </div> -->
+          <div
+            class="col-auto flex-grow-1 p-0 flex-grow-1 justify-content-end align-items-end d-flex flex-column"
+          >
+            <div
+              class="menu-container flex-md-grow-0 flex-grow-1 d-flex w-100 justify-content-md-end justify-content-between align-items-center flex-column flex-md-row"
+            >
+              <nav
+                class="d-flex align-items-center flex-grow-1 justify-content-center"
+              >
+                <ul class="mb-md-4 mb-0">
+                  <li><a href="index.html">الرئيسية</a></li>
+                  <li><a href="about-us.html">من نحن</a></li>
+                  <li>
+                    <a href="brief-about-project.html">نظرة على المشروع</a>
+                  </li>
+                  <li><a href="hotels.html" class="active">الضيافة</a></li>
+                  <li><a href="partners.html">الشركاء</a></li>
+                  <!-- <li><a href="news.html">الاخبار</a></li> -->
+                  <!-- <li>
+                  <a href="join-us.html"> انضم الينا</a>
+                </li> -->
+                  <li><a href="contact-us.html">تواصل معنا</a></li>
+                </ul>
+              </nav>
+              <!-- <a href="#" class="switch-language-button">Eng</a> -->
+            </div>
+          </div>
+        </div>
+      </main>
+    </header>
+
+    <main id="partners-page">
+      <div class="hero">
+        <img src="assets/images/room.jpg" alt="" class="img-fluid img-bg" />
+      </div>
+
+      <section id="success-partners" class="container-fluid py-5">
+        <h2 class="text-center mb-4 fw-bold">الضيافة</h2>
+
+        <p class="text-center">
+          ابراج فندقية تحتوي على غرف وشقق فندقية بعلامات تجارية عالمية ومحلية
+          مختصة بمجال الضيافة
+        </p>
+        <div class="row container m-auto p-0 justify-content-center">
+          <!-- Started ended  -->
+          <div class="col-6 col-md-3 mb-3">
+            <div class="item">
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn btn-default"
+                data-toggle="modal"
+                data-target="#modal-2"
+              >
+                <img
+                  src="assets/images/radisson.jpg"
+                  alt=""
+                  class="img-fluid"
+                />
+              </button>
+            </div>
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="modal-2"
+              tabindex="-1"
+              role="dialog"
+              aria-labelledby="modal-2Title"
+              aria-hidden="true"
+            >
+              <div
+                class="modal-dialog modal-dialog-centered modal-lg"
+                role="document"
+              >
+                <div class="modal-content">
+                  <div class="modal-body row justify-content-end p-4">
+                    <div class="col-12 d-flex justify-content-end">
+                      <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="col-sm-3">
+                      <img
+                        src="assets/images/radisson.jpg"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="col-sm-9">
+                      <h3>راديسون</h3>
+
+                      <p class="text-justify">
+                        اختر فنادق أنيقة وراقية أُنشئت من أجلك. استمتع بترحيب
+                        حار من خلال أجوائنا الجذابة واللمسات المدروسة المصممة
+                        لإرضائك. دع فريقنا اليقظ يهتم بالتفاصيل الصغيرة التي
+                        تحدث فارقًا كبيرًا في إقامتك في أكثر الوجهات المرغوبة،
+                        والتي تجمع بين الراحة والتميز الفردي.
+                      </p>
+                    </div>
+
+                    <div class="col-sm-6">
+                      <a
+                        href="https://www.radissonhotels.com/en-us/"
+                        class="btn btn-outline-primary w-100"
+                      >
+                        قم بزيارة الموقع
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item ended  -->
+          <!-- Started ended  -->
+          <div class="col-6 col-md-3 mb-3">
+            <div class="item">
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn btn-default"
+                data-toggle="modal"
+                data-target="#modal-3"
+              >
+                <img
+                  src="assets/images/park-inn-logo.png"
+                  alt=""
+                  class="img-fluid"
+                />
+              </button>
+            </div>
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="modal-3"
+              tabindex="-1"
+              role="dialog"
+              aria-labelledby="modal-3Title"
+              aria-hidden="true"
+            >
+              <div
+                class="modal-dialog modal-dialog-centered modal-lg"
+                role="document"
+              >
+                <div class="modal-content">
+                  <div class="modal-body row justify-content-end p-4">
+                    <div class="col-12 d-flex justify-content-end">
+                      <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="col-sm-3">
+                      <img
+                        src="assets/images/park-inn-logo.png"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="col-sm-9">
+                      <h3>بارك ان</h3>
+
+                      <p class="text-justify">
+                        استمتع بفنادق مريحة ومتصلة وبأسعار معقولة مع بارك إن باي
+                        راديسون. ونقدم تجارب خالية من أي ضغوط وطعامًا جيدًا
+                        وبيئات نابضة بالحياة مع لمسة من الألوان الجذابة والتصميم
+                        العصري والخدمة الشخصية الودودة مع إضافات مذهلة وممتعة.
+                        تقع فنادقنا في العواصم،
+                      </p>
+
+                      <p class="text-justify">
+                        وحول المراكز الاقتصادية ومراكز النقل، وبالقرب من
+                        المطارات ومحطات السكك الحديد، ما يوفر الراحة للجميع.
+                      </p>
+                    </div>
+
+                    <div class="col-sm-6">
+                      <a
+                        href="https://www.radissonhotels.com/en-us/brand/park-inn"
+                        class="btn btn-outline-primary w-100"
+                      >
+                        قم بزيارة الموقع
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Item ended  -->
+          <!-- Started ended  -->
+
+          <div class="col-6 col-md-3 mb-3">
+            <div class="item">
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn btn-default"
+                data-toggle="modal"
+                data-target="#modal-4"
+              >
+                <img
+                  src="assets/images/novotel-logo.png"
+                  alt=""
+                  class="img-fluid"
+                />
+              </button>
+            </div>
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="modal-4"
+              tabindex="-1"
+              role="dialog"
+              aria-labelledby="modal-4Title"
+              aria-hidden="true"
+            >
+              <div
+                class="modal-dialog modal-dialog-centered modal-lg"
+                role="document"
+              >
+                <div class="modal-content">
+                  <div class="modal-body row justify-content-end p-4">
+                    <div class="col-12 d-flex justify-content-end">
+                      <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="col-sm-3">
+                      <img
+                        src="assets/images/novotel-logo.png"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="col-sm-9">
+                      <h3>نوفوتيل ذاخر</h3>
+                      <p class="text-justify">
+                        في نوفوتيل ذاخر أكبر فندق نوفوتيل في العالم من حيث عدد
+                        الغرف، تستمتع بكل تفاصيل الحياة مع أريحية المكان وحيوية
+                        الأجواء، بتوفيرأفضل وسائل الراحة في كل زيارة.
+                      </p>
+
+                      <p class="text-justify">
+                        تحظى في نوفوتيل ذاخر بأعلى معايير الرفاهية ومتعة الإقامة
+                        بتجربة متميزة مع عائلتك وأصحابك لتبتعد عن ضجيج الحياة
+                        وتقترب بروحك لراحة القلب والبال في عالم من الهدوء
+                        والطمأنينة تعيشها في بيئة متكاملة متفردة الرقي، ونفخر
+                        بتقديم هذا المزيج السكني في مكان واحد .
+                      </p>
+                    </div>
+
+                    <div class="col-sm-6">
+                      <a
+                        href="https://group.accor.com/en"
+                        class="btn btn-outline-primary w-100"
+                      >
+                        قم بزيارة الموقع
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Item ended  -->
+        </div>
+      </section>
+    </main>
+    <footer class="conatiner-fluid p-5 main-footer">
+      <div class="row justify-content-evenly">
+        <div class="col-auto d-flex justify-content-center">
+          <a href="index.html" class="d-flex justify-content-center">
+            <img
+              src="assets/images/home/thakher-logo-white.svg"
+              alt=""
+              class="img-fluid w-50 zakher-logo align-self-start mb-5 mb-lg-0"
+            />
+          </a>
+        </div>
+
+        <div class="col-lg-10 row justify-content-between">
+          <div class="col-md-2 col-12">
+            <ul>
+              <li><a href="index.html">الرئيسية</a></li>
+              <li><a href="about-us.html">من نحن</a></li>
+              <li><a href="brief-about-project.html">نظرة على المشروع</a></li>
+              <li><a href="hotels.html">الضيافة</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2 col-12">
+            <ul>
+              <li><a href="partners.html">شركائنا</a></li>
+              <!-- <li><a href="news.html">اخبارنا</a></li> -->
+              <!-- <li><a href="join-us.html">انضم الينا</a></li> -->
+              <li><a href="contact-us.html">تواصل معنا</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2 col-12">
+            <ul>
+              <li class="mt-md-0 mt-5 mb-0"><b>تابعنا على</b></li>
+            </ul>
+
+            <div class="col-auto social-links">
+              <ul>
+                <li class="ps-3">
+                  <a
+                    href="https://www.facebook.com/Thakher-Development-104244868397591"
+                    class="facebook"
+                    ><i class="fa-brands fa-facebook-f"></i
+                  ></a>
+                </li>
+                <li class="ps-3">
+                  <a href="https://twitter.com/ThakherD" class="twitter"
+                    ><i class="fa-brands fa-twitter"></i
+                  ></a>
+                </li>
+                <li class="ps-3">
+                  <a
+                    href="https://www.linkedin.com/company/thakherdevelopment/"
+                    class="linkedin"
+                    ><i class="fa-brands fa-linkedin-in"></i
+                  ></a>
+                </li>
+                <li class="ps-3">
+                  <a
+                    href="https://www.instagram.com/thakherdevelopment/"
+                    class="instgram"
+                    ><i class="fa-brands fa-instagram"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div
+            class="contact-info col-md-4 col-12 d-flex flex-column align-items-center"
+          >
+            <div class="align-self-md-start mb-lg-0 mb-4">
+              <div
+                class="d-flex mb-2 justify-content-center justify-content-md-start"
+              >
+                <i class="fas fa-phone ps-2 pt-1"></i>
+                <span>920010088</span>
+              </div>
+              <div
+                class="d-flex mb-2 justify-content-center justify-content-md-start"
+              >
+                <i class="fas fa-envelope ps-2 pt-1"></i>
+                <span>customer@thakher.com.sa</span>
+              </div>
+              <div
+                class="d-flex mb-2 justify-content-center justify-content-md-start"
+              >
+                <i class="fas fa-location-dot ps-2 pt-1"></i>
+                <span> شارع التحلية حي الروضة مبنى ذاخر </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="floating-subscribe">
+      <a
+        href="contact-us.html"
+        id="toggle-subscribe-button"
+        class="btn btn-primary"
+        type="button"
+        >سجل اهتمامك</a
+      >
+      <!-- <form action="">
+      <div class="input-group subscribe justify-content-end">
+        <input id="subscribe-email-input" type="email" class="form-control" placeholder="اكتب ايميلك الشخصي" />
+        <div class="input-group-append">
+          <button id="toggle-subscribe-button" class="btn btn-primary" type="button">سجل اهتمامك</button>
+        </div>
+      </div>
+    </form> -->
+    </div>
+
+    <div id="arrowTop" class="arrow-to-top">
+      <i class="fa-solid fa-square-caret-up"></i>
+    </div>
+    <!-- Scripts -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/js/main.js"></script>
+
+    <!-- This for popup modal  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

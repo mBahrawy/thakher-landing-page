@@ -1,0 +1,651 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#385f54" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/favicon/site.webmanifest" />
+
+    <title>ذاخر - من نحن</title>
+
+    <!-- CSS  -->
+    <link rel="stylesheet" href="assets/style/theme.css" />
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = "2.0";
+
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+
+        s.parentNode.insertBefore(t, s);
+      })(
+        window,
+        document,
+        "script",
+
+        "https://connect.facebook.net/en_US/fbevents.js"
+      );
+
+      fbq("init", "3154848708115207");
+
+      fbq("track", "PageView");
+    </script>
+
+    <noscript
+      ><img
+        height="1"
+        width="1"
+        style="display: none"
+        src="https://www.facebook.com/tr?id=3154848708115207&ev=PageView&noscript=1"
+    /></noscript>
+    <script type="text/javascript">
+      (function (e, t, n) {
+        if (e.snaptr) return;
+        var a = (e.snaptr = function () {
+          a.handleRequest
+            ? a.handleRequest.apply(a, arguments)
+            : a.queue.push(arguments);
+        });
+
+        a.queue = [];
+        var s = "script";
+        r = t.createElement(s);
+        r.async = !0;
+
+        r.src = n;
+        var u = t.getElementsByTagName(s)[0];
+
+        u.parentNode.insertBefore(r, u);
+      })(
+        window,
+        document,
+
+        "https://sc-static.net/scevent.min.js"
+      );
+
+      snaptr("init", "3341e818-f796-4378-b182-90f9c128e40e", {
+        user_email: "__INSERT_USER_EMAIL__",
+      });
+
+      snaptr("track", "PAGE_VIEW");
+    </script>
+  </head>
+
+  <body>
+    <header>
+      <a href="index.html" class="site-brand main-brand">
+        <img
+          class="img-fluid"
+          src="assets/images/home/thakher-logo-white.svg"
+          alt=""
+        />
+      </a>
+
+      <button id="toggle-menu" class="menu-btn">
+        <i class="fas fa-bars"></i>
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <form action="" id="seach-form" onsubmit="event.preventDefault()">
+        <div class="input-group">
+          <button id="toggle-search" class="menu-btn me-3">
+            <i class="fas fa-search"></i>
+          </button>
+          <input
+            type="text"
+            name=""
+            id=""
+            class="form-control"
+            placeholder="بحث"
+          />
+        </div>
+      </form>
+
+      <main
+        id="header-wrapper"
+        class="container-fluid p-0 d-flex pt-md-0 pt-3 flex-column"
+      >
+        <div
+          class="row flex-grow-1 flex-md-row justify-content-between flex-column mx-5 my-4"
+        >
+          <!-- <div class="col-auto p-0 mb-md-3 mt-md-0 mt-5">
+          <a href="index.html" class="site-brand">
+            <img class="img-fluid" src="assets/images/home/thakher-logo-white.svg" alt="" />
+          </a>
+        </div> -->
+          <div
+            class="col-auto flex-grow-1 p-0 flex-grow-1 justify-content-end align-items-end d-flex flex-column"
+          >
+            <div
+              class="menu-container flex-md-grow-0 flex-grow-1 d-flex w-100 justify-content-md-end justify-content-between align-items-center flex-column flex-md-row"
+            >
+              <nav
+                class="d-flex align-items-center flex-grow-1 justify-content-center"
+              >
+                <ul class="mb-md-4 mb-0">
+                  <li><a href="index.html">الرئيسية</a></li>
+                  <li><a href="about-us.html" class="active">من نحن</a></li>
+                  <li>
+                    <a href="brief-about-project.html">نظرة على المشروع</a>
+                  </li>
+                  <li><a href="hotels.html">الضيافة</a></li>
+                  <li><a href="partners.html">الشركاء</a></li>
+                  <!-- <li><a href="news.html">الاخبار</a></li> -->
+                  <!-- <li>
+                  <a href="join-us.html"> انضم الينا</a>
+                </li> -->
+                  <li><a href="contact-us.html">تواصل معنا</a></li>
+                </ul>
+              </nav>
+              <!-- <a href="#" class="switch-language-button">Eng</a> -->
+            </div>
+          </div>
+        </div>
+      </main>
+    </header>
+
+    <main id="about-us-page">
+      <div class="hero">
+        <img src="assets/images/Header.jpg" alt="" class="img-fluid img-bg" />
+      </div>
+
+      <div class="page-tabs container px-3">
+        <nav class="row">
+          <ul class="nav nav-pills w-100" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <a href="#pills-about" class="btn btn-default active">من نحن</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a href="#pills-philosophy" class="btn btn-default">فلسفتنا</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a href="#pills-chairman-massage" class="btn btn-default"
+                >كلمة الرئيس التنفيذي</a
+              >
+            </li>
+            <li class="nav-item" role="presentation">
+              <a href="#pills-board-of-directors" class="btn btn-default"
+                >مجلس الإدارة</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <section>
+        <div id="pills-about" class="container py-2 my-lg-5 my-2">
+          <div class="row m-auto">
+            <div class="col-lg-6">
+              <p class="mt-3 text-justify">
+                ذاخــر للتطويــر هــي ثـمـــرة شـراكـــة قـويـــة وطمـوحـــة
+                تأسـســت بتحالـف تكـون مـن مجموعـة ماسـك وعـدد مـــن
+                المســتثمرين العقارييــن القيادييــن فــي المملكــة العربيــة
+                الســعودية، حيــث كانــت الرؤيــة التأسيســية هـي تقديـم وتنفيـذ
+                حلـول تسـاهم فـي تغييـر وتعزيـز ســوق العقــارات والتطويــر
+                بهــدف أن تصبــح الشــركة أحـد المطوريـن العقارييـن الرائديـن
+                فـي تطويـر مشـاريع الضيافة في المملكة العربية السعودية.
+              </p>
+            </div>
+            <div class="col-lg-6">
+              <div class="p-0 container">
+                <div class="blur-slider slick-slider">
+                  <div>
+                    <img
+                      src="assets/images/briefe/briefe-1.jpg"
+                      loading="lazy"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      src="assets/images/briefe/briefe-2.jpg"
+                      loading="lazy"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      src="assets/images/briefe/briefe-3.jpg"
+                      loading="lazy"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      src="assets/images/briefe/briefe-4.jpg"
+                      loading="lazy"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      src="assets/images/briefe/briefe-5.jpg"
+                      loading="lazy"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      src="assets/images/briefe/briefe-6.jpg"
+                      loading="lazy"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      src="assets/images/briefe/briefe-7.jpg"
+                      loading="lazy"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      src="assets/images/briefe/briefe-8.jpg"
+                      loading="lazy"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="pills-philosophy" class="container py-2 my-5">
+          <div class="row m-auto">
+            <div class="col-md-12 d-flex flex-column align-items-center mb-5">
+              <div class="d-flex flex-column align-items-center">
+                <img
+                  src="assets/images/icons/target.png"
+                  alt=""
+                  class="img-fluid"
+                />
+                <h3 class="fw-bold">هدفنا</h3>
+              </div>
+
+              <p class="">تغيير مشهد التطوير العقاري في مكة المكرمة</p>
+            </div>
+            <div class="col-md-12 d-flex flex-column align-items-center mb-5">
+              <div class="d-flex flex-column align-items-center">
+                <img
+                  src="assets/images/icons/vision.png"
+                  alt=""
+                  class="img-fluid"
+                />
+
+                <h3 class="fw-bold">رؤيتنا</h3>
+              </div>
+
+              <p class="">
+                أن نساهم في التطوير والتنمية المستدامة لمكة المكرمة وأن نصبح
+                الوجهة المفضلة لزوار المدينة المقدسة
+              </p>
+            </div>
+            <div class="col-md-12 d-flex flex-column align-items-center mb-5">
+              <div class="d-flex flex-column align-items-center">
+                <img
+                  src="assets/images/icons/message.png"
+                  alt=""
+                  class="img-fluid"
+                />
+
+                <h3 class="fw-bold">رسالتنا</h3>
+              </div>
+
+              <p class="text-center">
+                نحن ملتزمون بتقديم اسلوب حياة يتّسم بالطمأنينة والراحة من خلال
+                توفير العناصر المتكاملة والقائمة
+                <br />
+                على الابتكار والخبرة والخدمات المميزة ونهج يركز على القيمة ويهدف
+                لتحقيق رضا الساكنين والزائرين
+              </p>
+            </div>
+            <div class="col-md-12 d-flex flex-column align-items-center mb-5">
+              <div class="d-flex flex-column align-items-center">
+                <img
+                  src="assets/images/icons/value.png"
+                  alt=""
+                  class="img-fluid"
+                />
+
+                <h3 class="fw-bold">قيمنا</h3>
+              </div>
+
+              <p class="m-0">
+                <b>النزاهة</b>: نستمد قوة صدقنا من معرفتنا العميقة بتخصصنا
+              </p>
+              <p class="m-0">
+                <b>الابتكار</b>: يعتمد نهج عملنا على التعاون المناسب في التفكير
+                والتنفيذ وخلق القيمة مما يؤدي إلى الابتكار
+              </p>
+              <p class="m-0">
+                <b>العزيمة</b>: نؤمن بأن الأهداف الكبيرة تتطلب الالتزام
+                والمثابرة نحو تحقيقها
+              </p>
+              <p class="m-0">
+                <b>الخبرة</b>: شغف المعرفة وتطوير الذات واكتساب المهارات
+              </p>
+              <p class="m-0">
+                <b>الحيوية</b>: هو ما يمدنا بالخبرة اللازمة لإنجاز أهدافنا
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="pills-chairman-massage" class="container py-2 mb-5">
+          <div class="row mb-4">
+            <h3 class="text-center fw-bold">كلمة الرئيس التنفيذي</h3>
+          </div>
+          <div class="row m-auto">
+            <div class="col-md-8">
+              <p>بسم الله الرحمن الرحيم</p>
+              <p class="text-justify">
+                في خدمة ديننا وبلدنا نشيّد مشروع ذاخر مكة بتميز وتفرد بالقرب من
+                الحرم المكي، حيث يرتفع مشروع ذاخر مكة كأحد أضخم وأهم المشاريع
+                العقارية في المملكة العربية السعودية، وذلك رغبتا منا في المشاركة
+                في تحقيق اهداف رؤية 2030 المتمثلة في تعزيز الخدمات المقدمة لضيوف
+                الرحمن واثراء تجربتهم، بالاضافة لتعزيز التنمية العقارية
+                والاقتصادية للمدينة وتمكين الراغبين من تملك عقار متمّيز داخل
+                مجتمع متكامل الخدمات وبيئة تنبض بالحياة والامان وعلى مقربة من
+                الحرم المكي الشريف.
+              </p>
+              <p class="text-justify">
+                يعتبر ذاخر مكة جوهرة "شركة ذاخر للتطوير" حيث ان المشروع يمتد على
+                مساحة 320،000 متر مربع ويحتوي على فنادق ذات تصنيف 3 و4 نجوم
+                بالاضافة الى ابراج سكنية ومرافق عامة وترفيهية تخدم الزائرين
+                والمقيمين راجين الله تحقيق الأهداف النبيلة وراء إطلاق هذا
+                المشروع الضخم.
+              </p>
+            </div>
+            <div class="col-md-4">
+              <img
+                class="img-fluid"
+                src="assets/images/about/ceo.jpg"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+            <div class="col-md-12"></div>
+          </div>
+        </div>
+
+        <div id="pills-board-of-directors" class="container py-2 mb-5">
+          <div class="row mb-4">
+            <h3 class="text-center fw-bold">مجلس الإدارة</h3>
+            <!-- <p>
+              لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على العميل ليتصور طريقه وضع النصوص بالتصاميم سواء كانت تصاميم مطبوعه ... بروشور او فلاير على
+              سبيل المثال ... او نماذج مواقع انترنت ...
+            </p> -->
+          </div>
+
+          <div class="row m-auto">
+            <div
+              class="accordion p-0 mb-5 px-md-5 row"
+              id="about-us-page-accodion"
+            >
+              <div class="col-md-6 p-2">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button">
+                      <strong> سعادة الاستاذ / ناصر بن محمد السبيعي</strong>
+                      <small> رئيس مجلس الإدارة</small>
+                    </button>
+                  </h2>
+                </div>
+              </div>
+
+              <div class="col-md-6 p-2">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button">
+                      <strong> الدكتور / عبدالله بن حمد المشعل </strong>
+                      <small>نائب رئيس مجلس الإدارة</small>
+                    </button>
+                  </h2>
+                </div>
+              </div>
+
+              <div class="col-md-6 p-2">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button">
+                      <strong> الدكتور / فيصل بن حمد الصقير </strong>
+                      <small>عضو مجلس الإدارة</small>
+                    </button>
+                  </h2>
+                </div>
+              </div>
+
+              <div class="col-md-6 p-2">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button">
+                      <strong> الدكتور المهندس / أحمد بن عثمان القصبي </strong>
+                      <small>عضو مجلس الإدارة</small>
+                    </button>
+                  </h2>
+                </div>
+              </div>
+
+              <div class="col-md-6 p-2">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button">
+                      <strong> الأستاذ / هاني بن سامي حلواني </strong>
+                      <small>عضو مجلس الإدارة</small>
+                    </button>
+                  </h2>
+                </div>
+              </div>
+
+              <div class="col-md-6 p-2">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button">
+                      <strong> الأستاذ / سلطان بن محمد الحديثي </strong>
+                      <small>عضو مجلس الإدارة</small>
+                    </button>
+                  </h2>
+                </div>
+              </div>
+
+              <div class="col-md-6 p-2">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button">
+                      <strong> الأستاذ / عمر بن عبدالعزيز البليهد </strong>
+                      <small>عضو مجلس الإدارة</small>
+                    </button>
+                  </h2>
+                </div>
+              </div>
+
+              <div class="col-md-6 p-2">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button">
+                      <strong> الأستاذ / أحمد بن سليمان المزيني </strong>
+                      <small>عضو مجلس الإدارة</small>
+                    </button>
+                  </h2>
+                </div>
+              </div>
+              <div class="col-md-6 p-2">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button">
+                      <strong> الأستاذ / نادر بن حسن العمري </strong>
+                      <small>عضو مجلس الإدارة</small>
+                    </button>
+                  </h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="conatiner-fluid p-5 main-footer">
+      <div class="row justify-content-evenly">
+        <div class="col-auto d-flex justify-content-center">
+          <a href="index.html" class="d-flex justify-content-center">
+            <img
+              src="assets/images/home/thakher-logo-white.svg"
+              alt=""
+              class="img-fluid w-50 zakher-logo align-self-start mb-5 mb-lg-0"
+            />
+          </a>
+        </div>
+
+        <div class="col-lg-10 row justify-content-between">
+          <div class="col-md-2 col-12">
+            <ul>
+              <li><a href="index.html">الرئيسية</a></li>
+              <li><a href="about-us.html">من نحن</a></li>
+              <li><a href="brief-about-project.html">نظرة على المشروع</a></li>
+              <li><a href="hotels.html">الضيافة</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2 col-12">
+            <ul>
+              <li><a href="partners.html">شركائنا</a></li>
+              <!-- <li><a href="news.html">اخبارنا</a></li> -->
+              <!-- <li><a href="join-us.html">انضم الينا</a></li> -->
+              <li><a href="contact-us.html">تواصل معنا</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2 col-12">
+            <ul>
+              <li class="mt-md-0 mt-5 mb-0"><b>تابعنا على</b></li>
+            </ul>
+
+            <div class="col-auto social-links">
+              <ul>
+                <li class="ps-3">
+                  <a
+                    href="https://www.facebook.com/Thakher-Development-104244868397591"
+                    class="facebook"
+                    ><i class="fa-brands fa-facebook-f"></i
+                  ></a>
+                </li>
+                <li class="ps-3">
+                  <a href="https://twitter.com/ThakherD" class="twitter"
+                    ><i class="fa-brands fa-twitter"></i
+                  ></a>
+                </li>
+                <li class="ps-3">
+                  <a
+                    href="https://www.linkedin.com/company/thakherdevelopment/"
+                    class="linkedin"
+                    ><i class="fa-brands fa-linkedin-in"></i
+                  ></a>
+                </li>
+                <li class="ps-3">
+                  <a
+                    href="https://www.instagram.com/thakherdevelopment/"
+                    class="instgram"
+                    ><i class="fa-brands fa-instagram"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div
+            class="contact-info col-md-4 col-12 d-flex flex-column align-items-center"
+          >
+            <div class="align-self-md-start mb-lg-0 mb-4">
+              <div
+                class="d-flex mb-2 justify-content-center justify-content-md-start"
+              >
+                <i class="fas fa-phone ps-2 pt-1"></i>
+                <span>920010088</span>
+              </div>
+              <div
+                class="d-flex mb-2 justify-content-center justify-content-md-start"
+              >
+                <i class="fas fa-envelope ps-2 pt-1"></i>
+                <span>customer@thakher.com.sa</span>
+              </div>
+              <div
+                class="d-flex mb-2 justify-content-center justify-content-md-start"
+              >
+                <i class="fas fa-location-dot ps-2 pt-1"></i>
+                <span> شارع التحلية حي الروضة مبنى ذاخر </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="floating-subscribe">
+      <a
+        href="contact-us.html"
+        id="toggle-subscribe-button"
+        class="btn btn-primary"
+        type="button"
+        >سجل اهتمامك</a
+      >
+      <!-- <form action="">
+      <div class="input-group subscribe justify-content-end">
+        <input id="subscribe-email-input" type="email" class="form-control" placeholder="اكتب ايميلك الشخصي" />
+        <div class="input-group-append">
+          <button id="toggle-subscribe-button" class="btn btn-primary" type="button">سجل اهتمامك</button>
+        </div>
+      </div>
+    </form> -->
+    </div>
+
+    <div id="arrowTop" class="arrow-to-top">
+      <i class="fa-solid fa-square-caret-up"></i>
+    </div>
+    <!-- Scripts -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

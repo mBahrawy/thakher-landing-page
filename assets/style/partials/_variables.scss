@@ -1,0 +1,45 @@
+// Theme colors
+$color-white: #f8f8f8;
+$color-offwhite: #e0d997;
+$color-yellow: #fdbe42;
+$color-light-grey: #d6d6d6;
+$color-light-grey-2: #e2e2e2;
+$color-light-grey-3: #f8f8f8;
+$color-grey: #707070;
+$color-dark-grey: #444444;
+$color-dark-grey-2: #242424;
+$color-black: #1b1a1a;
+$color-light-green: #508e40;
+$color-light-green-2: #7bb6b3;
+$color-green: #437638;
+$color-dark-green: #2a4c25;
+$color-dark-green-2: #385f54;
+$color-orange: #d76142;
+$color-brown: #b99757;
+$color-black: #1b1a1a;
+
+// Media sizes:
+$media-laptopLarge: "only screen and (max-width : 1440px)";
+$media-laptop: "only screen and (max-width : 1024px)";
+$media-tablet: "only screen and (max-width : 768px)";
+$media-MobileXLarge: "only screen and (max-width : 576px)";
+$media-MobileLarge: "only screen and (max-width : 425px)";
+$media-MobileMedium: "only screen and (max-width : 375px)";
+$media-MobileSmall: "only screen and (max-width : 320px)";
+$media-mobile-and-higher-only: "only screen and (min-width : 426px)";
+$media-tablets-and-higher-only: "only screen and (min-width : 769px)";
+$media-laptops-and-higher-only: "only screen and (min-width : 1366px)";
+
+$media-ipadPro-portrait: "only screen and (max-width : 1024px) and (orientation: portrait)";
+$media-tablet-portrait: "only screen and (max-width : 768px) and (orientation: portrait)";
+$media-MobileXLarge-portrait: "only screen and (max-width : 576px) and (orientation: portrait)";
+$media-MobileMedium-portrait: "only screen and (max-width : 375px) and (orientation: portrait)";
+
+// Overide bootstap colors
+$primary: $color-dark-green;
+$success: $color-light-green-2;
+$warning: $color-orange;
+$border-radius: 0;
+$border-width: 2px;
+$accordion-border-color: $color-dark-green-2;
+$modal-border-radius: 0;
